@@ -1,0 +1,13 @@
+#runkeeper{
+	width:680px;
+	height:510px;
+	overflow:hidden;
+	border:solid black 1px;
+}
+
+#runkeeper_if{
+	margin-top:-160px;
+	margin-left:-270px;
+	width:980px;
+	height:670px;
+}
