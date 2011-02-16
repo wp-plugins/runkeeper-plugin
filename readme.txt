@@ -25,7 +25,6 @@ e.g.
 1. Upload runkeeper.php, runkeeper.css and runkeeper.js to `/wp-content/plugins/runkeeper/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Create a custom field in a post and paste the runkeeper share link into it.
-4. Note: JQuery must be already included in the site.
 
 == Changelog ==
 
