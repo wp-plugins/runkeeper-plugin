@@ -3,7 +3,7 @@ Contributors: phy9pas
 Donate link: http://sandjam.co.uk
 Tags: runkeeper
 Requires at least: 2.0.2
-Tested up to: 1.1
+Tested up to: 3.1
 Stable tag: 1.1
 
 Inserts previews of your runkeeper activity into your post
