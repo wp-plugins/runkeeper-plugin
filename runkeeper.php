@@ -2,14 +2,14 @@
 /**
  * @package runkeeper
  * @author Peter Smith
- * @version 1.0.0
+ * @version 1.1.0
  */
 /*
 Plugin Name: Runkeeper
 Plugin URI: http://sandjam.co.uk
 Description: inserts a runkeeper preview into a post when a custom field called runkeeper is found
 Author: Peter Smith
-Version: 1.0.0
+Version: 1.1.0
 Author URI: http://sandjam.co.uk
 */
 
