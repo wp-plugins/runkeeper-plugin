@@ -2,14 +2,14 @@
 /**
  * @package runkeeper
  * @author Peter Smith
- * @version 1.1.0
+ * @version 1.2.0
  */
 /*
 Plugin Name: Runkeeper
-Plugin URI: http://sandjam.co.uk
+Plugin URI: http://sandjam.co.uk/sandjam/2010/04/runkeeper-wordpress-plugin/
 Description: inserts a runkeeper preview into a post when a custom field called runkeeper is found
 Author: Peter Smith
-Version: 1.1.0
+Version: 1.2.0
 Author URI: http://sandjam.co.uk
 */
 
@@ -40,8 +40,8 @@ add_action('wp_head', 'runkeeper_js');
 
 
 function runkeeper_js() {
-	echo('<link rel="stylesheet" type="text/css" href="'.get_bloginfo('wpurl').'/wp-content/plugins/runkeeper/runkeeper.css" media="screen" />');
-	echo('<script type="text/javascript" src="'.get_bloginfo('wpurl').'/wp-content/plugins/runkeeper/runkeeper.js"></script>');
+	echo('<link rel="stylesheet" type="text/css" href="'.get_bloginfo('wpurl').'/wp-content/plugins/runkeeper-plugin/runkeeper.css" media="screen" />');
+	echo('<script type="text/javascript" src="'.get_bloginfo('wpurl').'/wp-content/plugins/runkeeper-plugin/runkeeper.js"></script>');
 }
 
 ?>

@@ -4,7 +4,7 @@ Donate link: http://sandjam.co.uk
 Tags: runkeeper
 Requires at least: 2.0.2
 Tested up to: 3.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Inserts previews of your runkeeper activity into your post
 
@@ -28,6 +28,9 @@ e.g.
 4. Note: JQuery must be already included in the site.
 
 == Changelog ==
+
+= 1.2 =
+* Fixed paths issue causing JS and CSS to be missed out.
 
 = 1.1 =
 * Style amends to keep up with new Runkeper website
