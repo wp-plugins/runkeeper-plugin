@@ -1,4 +1,3 @@
-
 var runkeeper = {
 	alreadyrunflag:0,
 	
@@ -23,9 +22,15 @@ var runkeeper = {
 	
 	begin:function() {
 		if (document.getElementById('runkeeper')) {
-			url = document.getElementById('runkeeper').title;
+			items = $('#runkeeper').attr('title').split(',');
+			url = items[0];
+			x = items[1];
+			y = items[2];
+			width = parseInt($('#runkeeper').css('width')) + (x*-1);
+			height = parseInt($('#runkeeper').css('height')) + (y*-1);
+
 			html = '';
-			html += '<iframe id="runkeeper_if" scrolling=no src="'+url+'"/>';
+			html += '<iframe id="runkeeper_if" scrolling=no src="'+url+'" style="width:'+width+'px; height:'+height+'px; margin-top:'+y+'px; margin-left:'+x+'px;"/>';
 			document.getElementById('runkeeper').innerHTML = html;
 		}
 	}
