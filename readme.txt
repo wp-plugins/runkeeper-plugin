@@ -1,20 +1,24 @@
-=== Plugin Name ===
+=== Runkeeper ===
 Contributors: phy9pas
-Donate link: http://sandjam.co.uk
+Donate link: http://sandjam.co.uk/sandjam/2010/04/runkeeper-wordpress-plugin/
 Tags: runkeeper
-Requires at least: 2.0.2
-Tested up to: 3.1
-Stable tag: 1.2
+Requires at least: 3.4.1
+Tested up to: 3.4.1
+Stable tag: trunk
 
-Inserts previews of your runkeeper activity into your post
+Inserts previews of your Runkeeper activity into a post
 
 == Description ==
 
-Create a custom field in your post called "runkeeper".
+There are two ways to use the plugin:
 
-Paste into this field the "Share" url from runkeeper for the acticity that you want to feature.
+* Create a custom field in your post called "runkeeper" and paste the "Share" url from the Runkeeper activity you want to feature.
 
-The map and stats for that activity will now appear below the post in an iframe.
+* Use the shortcode [runkeeper url="example"] replacing "example" with the "Share" url.
+
+The map and stats for that activity will now appear in the post in an iframe.
+
+If the formatting isn't quite right you can amend the size and offset of the Runkeeper preview in the Settings page.
 
 == Installation ==
 
@@ -22,12 +26,15 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload runkeeper.php, runkeeper.css and runkeeper.js to `/wp-content/plugins/runkeeper/` directory
+1. Copy all the files to `/wp-content/plugins/runkeeper/`
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Create a custom field in a post and paste the runkeeper share link into it.
-4. Note: JQuery must be already included in the site.
 
 == Changelog ==
+
+= 2.0 =
+* Add option to use shortcode instead of custom fields
+* Settings page to control dimensions and offset of preview
+* General overhaul of code to bring it in to line with the new WordPress framework
 
 = 1.2 =
 * Fixed paths issue causing JS and CSS to be missed out.
