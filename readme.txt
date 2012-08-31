@@ -31,6 +31,12 @@ e.g.
 
 == Changelog ==
 
+= 2.2 =
+* Remove requirement for jQuery
+
+= 2.1 =
+* Only include Javascript on pages where runkeeper is used
+
 = 2.0 =
 * Add option to use shortcode instead of custom fields
 * Settings page to control dimensions and offset of preview

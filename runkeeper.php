@@ -4,7 +4,7 @@ Plugin Name: Runkeeper
 Plugin URI: http://sandjam.co.uk/sandjam/2010/04/runkeeper-wordpress-plugin/
 Description: Insert a runkeeper preview into a post using the [runkeeper url=""] shortcode or a custom field called "runkeeper"
 Author: Peter Smith
-Version: 2.1
+Version: 2.2
 Author URI: http://sandjam.co.uk
 */
 
